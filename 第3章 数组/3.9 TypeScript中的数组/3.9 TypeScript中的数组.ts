@@ -14,3 +14,4 @@ function comparePerson(a: Person, b: Person) {
     if (a.age > b.age) return 1;
     return 0;
 }
+console.log(friends.sort(comparePerson)) // Ana(20), Chris(25), John(30)
