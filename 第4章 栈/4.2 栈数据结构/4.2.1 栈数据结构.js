@@ -1,5 +1,5 @@
 //4.2.1 创建一个基于数组的栈
-class Stack {
+export default class Stack {
     constructor() {
         this.items = []
     }

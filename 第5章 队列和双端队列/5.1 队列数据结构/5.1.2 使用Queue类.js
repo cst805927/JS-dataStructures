@@ -1,4 +1,5 @@
 // 5.1.2 使用Queue类
+import Queue from "./5.1.1 创建队列.js"
 const queue = new Queue()
 console.log(queue.isEmpty()) // true
 queue.enqueue('John')

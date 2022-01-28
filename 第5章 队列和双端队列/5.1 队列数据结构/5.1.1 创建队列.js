@@ -1,5 +1,5 @@
 // 5.1.1 创建队列
-class Queue {
+export default class Queue {
     constructor() {
         this.count = 0
         this.lowestCount = 0
